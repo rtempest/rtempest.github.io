@@ -4,14 +4,14 @@ const projects = [
     {
         'name': 'D3 Scattter Chart',
         'url': 'https://rtempest.github.io/fcc_scatter_chart/',
-        'img': 'fcc_scatter_chart_cropped.jpg',
+        'img': 'fcc_scatter_chart_2.jpg',
         'description': 'Challenge #2 of the freeCodeCamp Data Visualization Certificate',
         'tags': ['d3.js', 'data-viz']
     },
     {
         'name': 'Vancouver Street Trees',
-        'url': 'http://www.google.com',
-        'img': 'fcc_scatter_chart_cropped.jpg',
+        'url': 'https://rtempest.github.io/web_maps/street_trees_webapp/',
+        'img': 'street_trees.jpg',
         'description': 'An interactive web map of street trees in downtown Vancouver made with Leaflet.js',
         'tags': ['leaflet', 'webmaps']
     },
