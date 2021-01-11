@@ -2,7 +2,7 @@ const container = document.getElementById('project-card-container')
 
 const projects = [
     {
-        'name': 'fCC Scattter Chart',
+        'name': 'D3 Scattter Chart',
         'url': 'https://rtempest.github.io/fcc_scatter_chart/',
         'img': 'fcc_scatter_chart_cropped.jpg',
         'description': 'Challenge #2 of the freeCodeCamp Data Visualization Certificate'
