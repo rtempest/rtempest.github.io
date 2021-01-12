@@ -4,7 +4,7 @@ const projects = [
     {
         'name': 'D3 Scattter Chart',
         'url': 'https://rtempest.github.io/fcc_scatter_chart/',
-        'img': 'images/fcc_scatter_chart_2.jpg',
+        'img': 'images/scatter_chart.jpg',
         'description': 'Challenge #2 of the freeCodeCamp Data Visualization Certificate',
         'tags': ['d3.js', 'data-viz']
     },
@@ -24,9 +24,9 @@ const projects = [
     },
     {
         'name': 'BC Wildfires of 2020',
-        'url': 'https://rtempest.github.io/fcc_bar_chart/',
-        'img': 'images/fcc_scatter_chart_cropped.jpg',
-        'description': 'A leaflet web map showing wildfires in BC',
+        'url': 'https://rtempest.github.io/bcit_gis_projects/gisweb_wildfires/',
+        'img': 'images/wildfires.jpg',
+        'description': 'A leaflet web map showi ng wildfires in BC',
         'tags': ['leaflet', 'webmap']
     }
 ]
@@ -41,7 +41,7 @@ projects.forEach((x) => {
     container.innerHTML += `
     <div class="col">
         <div class="card shadow-sm">
-            <a href=${x.url}>
+            <a href=${x.url} target='_blank'>
             <img class="card-img-top" src=${x.img} width="300" height="auto"></a>
             <div class="card-body">
                 <h3>${x.name}</h3>
