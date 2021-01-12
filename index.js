@@ -4,23 +4,30 @@ const projects = [
     {
         'name': 'D3 Scattter Chart',
         'url': 'https://rtempest.github.io/fcc_scatter_chart/',
-        'img': 'fcc_scatter_chart_2.jpg',
+        'img': 'images/fcc_scatter_chart_2.jpg',
         'description': 'Challenge #2 of the freeCodeCamp Data Visualization Certificate',
         'tags': ['d3.js', 'data-viz']
     },
     {
         'name': 'Vancouver Street Trees',
         'url': 'https://rtempest.github.io/web_maps/street_trees_webapp/',
-        'img': 'street_trees.jpg',
+        'img': 'images/street_trees.jpg',
         'description': 'An interactive web map of street trees in downtown Vancouver made with Leaflet.js',
-        'tags': ['leaflet', 'webmaps']
+        'tags': ['leaflet', 'webmap']
     },
     {
-        'name': 'Bar Chart',
-        'url': 'http://www.google.com',
-        'img': 'fcc_scatter_chart_cropped.jpg',
-        'description': 'A bar chart',
+        'name': 'D3 Bar Chart',
+        'url': 'https://rtempest.github.io/fcc_bar_chart/',
+        'img': 'images/bar_chart.jpg',
+        'description': 'Challenge #1 of the freeCodeCamp Data Visualization Certificate and my first project using D3',
         'tags': ['d3.js', 'data-viz']
+    },
+    {
+        'name': 'BC Wildfires of 2020',
+        'url': 'https://rtempest.github.io/fcc_bar_chart/',
+        'img': 'images/fcc_scatter_chart_cropped.jpg',
+        'description': 'A leaflet web map showing wildfires in BC',
+        'tags': ['leaflet', 'webmap']
     }
 ]
 
@@ -35,7 +42,7 @@ projects.forEach((x) => {
     <div class="col">
         <div class="card shadow-sm">
             <a href=${x.url}>
-            <img src=${x.img} width="300" height="auto"></a>
+            <img class="card-img-top" src=${x.img} width="300" height="auto"></a>
             <div class="card-body">
                 <h3>${x.name}</h3>
                 <p class="card-text">${x.description}</p>
@@ -45,3 +52,7 @@ projects.forEach((x) => {
     </div>`
 
 });
+
+
+const tags = document.querySelectorAll('.tag')
+// tags.addEventListener('click')
