@@ -3,3 +3,11 @@
     padding: 5px;
     color: red;
 }
+
+.card h3 {
+    font-size: 12
+}
+
+.card p {
+    font-size 10
+}

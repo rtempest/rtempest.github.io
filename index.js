@@ -2,7 +2,14 @@ const container = document.getElementById('project-card-container')
 
 const projects = [
     {
-        'name': 'D3 Scattter Chart',
+        'name': 'Land Temperature Heatmap',
+        'url': 'https://rtempest.github.io/fcc_heatmap/',
+        'img': 'images/heatmap.jpg',
+        'description': 'Challenge #3 of the freeCodeCamp Data Visualization Certificate',
+        'tags': ['d3.js', 'data-viz']
+    },
+    {
+        'name': 'Doping in Professional Cycling',
         'url': 'https://rtempest.github.io/fcc_scatter_chart/',
         'img': 'images/scatter_chart.jpg',
         'description': 'Challenge #2 of the freeCodeCamp Data Visualization Certificate',
@@ -16,7 +23,7 @@ const projects = [
         'tags': ['leaflet', 'webmap']
     },
     {
-        'name': 'D3 Bar Chart',
+        'name': 'US GDP Bar Chart',
         'url': 'https://rtempest.github.io/fcc_bar_chart/',
         'img': 'images/bar_chart.jpg',
         'description': 'Challenge #1 of the freeCodeCamp Data Visualization Certificate and my first project using D3',
@@ -26,7 +33,7 @@ const projects = [
         'name': 'BC Wildfires of 2020',
         'url': 'https://rtempest.github.io/bcit_gis_projects/gisweb_wildfires/',
         'img': 'images/wildfires.jpg',
-        'description': 'A leaflet web map showi ng wildfires in BC',
+        'description': 'A leaflet web map showing wildfires in BC',
         'tags': ['leaflet', 'webmap']
     }
 ]
@@ -44,7 +51,7 @@ projects.forEach((x) => {
             <a href=${x.url} target='_blank'>
             <img class="card-img-top" src=${x.img} width="300" height="auto"></a>
             <div class="card-body">
-                <h3>${x.name}</h3>
+                <h5>${x.name}</h5>
                 <p class="card-text">${x.description}</p>
                 ${makeTags(x.tags)}
             </div>
