@@ -2,6 +2,13 @@ const container = document.getElementById('project-card-container')
 
 const projects = [
     {
+        'name': 'USA Education Choropleth',
+        'url': 'https://rtempest.github.io/fcc-choropleth/',
+        'img': 'images/choropleth.jpg',
+        'description': 'Challenge #4 of the freeCodeCamp Data Visualization Certificate',
+        'tags': ['d3.js', 'data-viz']
+    },
+    {
         'name': 'Land Temperature Heatmap',
         'url': 'https://rtempest.github.io/fcc_heatmap/',
         'img': 'images/heatmap.jpg',
